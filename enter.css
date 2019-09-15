@@ -1,0 +1,51 @@
+body{
+  background: skyblue;
+  font-family: 'Song Myung', cursive;
+  font-size: 28px;
+}
+
+.main{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px dashed red; */
+}
+
+.container-button{
+    /* border: 1px dashed red; */
+    width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#center{
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  border: 2px dashed red;
+  border-radius: 50px;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+a:hover{
+  border: 2px solid red;
+  background: pink;
+  color: red;
+}
