@@ -1,0 +1,152 @@
+body{
+  background: skyblue;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img{
+  max-width: 800px;
+  border: 10px solid white;
+}
+
+.container-main{
+}
+
+.message{
+  font-family: 'Black Han Sans', sans-serif;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  text-align: center;
+  color: lavenderblush;
+  opacity: 0.8;
+  z-index: -1
+}
+
+#message-big{
+  font-size: 100px;
+}
+
+#message-small{
+  font-size: 50px;
+}
+
+#sparkle{
+  width: 200px;
+  position: absolute;
+  margin: 10px;
+  top: 20px;
+  z-index: -1;
+  border: none;
+}
+
+#sparkle2{
+  width: 200px;
+  position: absolute;
+  z-index: -1;
+  border: none;
+}
+
+
+#round{
+  border-radius: 50px;
+  border: none;
+}
+
+#noborder{
+  border: none;
+}
+
+#rotate-left{
+  transform: rotate(-3deg);
+}
+
+#rotate-left-5{
+  transform: rotate(-5deg);
+}
+
+#rotate-right{
+  transform: rotate(3deg);
+}
+
+.container-text{
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  padding: 100px;
+}
+
+.container-text-2{
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  margin-left: 100px;
+  margin-top: -200px;
+  padding: 100px;
+}
+
+.container-text-3{
+  display: flex;
+  flex-flow: column nowrap;
+  position: absolute;
+  right: 100px;
+  margin-top: -200px;
+  padding: 100px;
+  margin-bottom: 300px;
+}
+
+.text{
+  border: 1px solid red;
+  border-radius: 10px;
+  background: whitesmoke;
+  padding: 20px 30px;
+  max-width: 400px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 500;
+  color: crimson;
+  font-size: 18px;
+  line-height: 1.45;
+  transition: 0.5s ease;
+}
+
+.container-img-h{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+}
+
+.container-img-v{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+}
+
+.container-img-v > img{
+  max-width: 600px;
+  margin-bottom: -50px;
+}
+
+.shadow > img{
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, .2);
+}
+
+.container-last{
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.from{
+  position: absolute;
+  font-family: 'Black Han Sans', sans-serif;
+  left: 50px;
+  text-align: right;
+  color: lavenderblush;
+  opacity: 0.8;
+  z-index: -1
+}
